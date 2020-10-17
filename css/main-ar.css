@@ -1,0 +1,84 @@
+.navbar-brand, .navbar-header {
+    float:right;
+}
+
+.navbar-toggle , .navbar-right {
+    float: left! important;
+}
+
+.container>.navbar-header, .container>.navbar-collapse {
+    margin-right: 0;
+}
+
+    #navigation .navbar-nav.navbar-right li {
+        float:right !important;
+    }
+
+    .single-product h2 {
+        text-align: right;
+    }
+
+    .services .col-sm-4 {
+        float: right;
+    }
+
+    .services .single-service p {
+        text-align: right;
+    }
+
+    #contact-form-section .form-control {
+        text-align: right;
+    }
+
+    .single-product ul , .single-product ul li , .single-product ul li .fa {
+        float:right;
+        text-align:right;
+    }
+
+    .single-product ul li {
+         border-left: 2px solid #999999;
+         border-right: none;
+         padding-left: 10px;
+    }
+
+    .post-meta .fa {
+        padding-left:5px;
+    }
+
+    .post-meta li {
+        direction: rtl;
+    }
+
+    .modal-body h2 , .modal-body .post-meta , .modal-body p {
+        text-align: right;
+        direction: rtl;
+    }
+
+    .modal-body .modal-imgs {
+        text-align:right;
+    }
+
+    .modal-body ul {
+        padding-right: 15px;
+    }
+
+@media (max-width: 768px) {
+    .navbar-header {
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        margin: -15px !important;
+    }
+
+    .navbar-right {
+         float: right !important;
+         width: 100%;
+    }
+
+    #navigation .navbar-nav.navbar-right li {
+        text-align: right;
+        margin-left: -31px;
+        float: none !important;
+    }
+}
